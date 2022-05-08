@@ -22,7 +22,7 @@ console.log(typeof myUndefined);
 console.log(typeof myNumberInt); 
 
 // Logs boolean
-console.log(typeof true);
+console.log(typeof false);
 
 // Logs string
 console.log(typeof "Howdy");
