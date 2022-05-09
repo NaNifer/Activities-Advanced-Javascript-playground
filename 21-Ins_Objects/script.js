@@ -10,7 +10,7 @@ var planet = {
 
 // To access a property's value that is a string, number or booleean, use the object's name and the associated key	
 // Uses dot notation and logs "Earth"	
-console.log(planet.name);
+console.log(planet.name + "is populated by " + planet.population + " humans.");
 	
 // Uses bracket notation and logs "Earth"
-console.log(planet["name"]);
+console.log(planet["population"]);

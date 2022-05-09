@@ -1,18 +1,18 @@
-// A variable declared in global scope is available to all functions
-var hello = "Hello"; 
+// // A variable declared in global scope is available to all functions
+// var hello = "Hello"; 
 
-function sayHello() {
-  console.log(hello);
-  return;
-}
+// function sayHello() {
+//   console.log(hello);
+//   return;
+// }
 
-var sayHelloAgain = function () {
-  console.log(hello);
-  return;
-};
+// var sayHelloAgain = function () {
+//   console.log(hello);
+//   return;
+// };
 
-sayHello();
-sayHelloAgain();
+// sayHello();
+// sayHelloAgain();
 
 //A variable declared in local scope is only available to that function
 function sayGoodbye() { 

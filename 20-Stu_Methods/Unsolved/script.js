@@ -15,3 +15,18 @@ console.log (galaxy)
 
 var upperCase = star.toUpperCase()
 console.log(upperCase)
+
+
+
+// initialize array
+var arr = ["Hi", "Hello", "Bonjour", "Hola"];
+
+// append multiple values to the array
+arr.push("Salut", "Hey");
+
+console.log(arr)
+
+
+for (var i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
