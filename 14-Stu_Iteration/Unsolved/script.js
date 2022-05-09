@@ -6,5 +6,5 @@ for (var i = 0; i < student.length; i++) {
 
 var student = ['Nifer', 'Max', 'Theo', 'Moni', 'Jason']
 for (var i = 0; i < student.length; i++) {
-    console.log("Great to see you, ${student[i]} ".")
+    console.log(`Great to see you, ${student[i]}.`)
 }

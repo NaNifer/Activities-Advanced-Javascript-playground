@@ -13,6 +13,10 @@ for (var i = 0; i < 5; i++) {
     console.log("This is the current value of i: " + i + ".");
 }
 
+
+
+
+
 // For-loops are often used to iterate over arrays
 var zooAnimals = ["Bears", "Giraffes", "Penguins", "Meerkats"];
 
